@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "james-cornel"
+  },
+  "targets": {
+    "james-cornel": {
+      "hosting": {
+        "my-portfolio": [
+          "james-cornel"
+        ]
+      }
+    }
+  }
+}

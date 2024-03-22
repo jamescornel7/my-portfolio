@@ -16,5 +16,5 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  imgSource = 'assets/img/CORNEL,JAMES ALBERT C_2162.JPG';
 }

@@ -1,17 +1,41 @@
-<div class="content">
-    <div class="container d-flex justify-content-center">
+<div class="content d-flex flex-column justify-content-between">
+    <div class="container d-flex justify-content-between">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Hi, I'm James Cornel</h5>
                 <h6 class="card-subtitle mb-2 text-muted">I'm a Developer</h6>
                 <img class="card-img-right" [src]="imgSource" alt="Card image cap" height="400" width="250">
             </div>
-        </div>
-    </div>
-    <div class="container d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
             <div class="card-body text-center">
-            Graduate from National University with a degree in BS Computer Science Batch 2019
+                Graduate from National University with a degree in BS Computer Science Batch 2019
+            </div>
+        </div>
+        <div ngbAccordion style="width: 75%;">
+            <div ngbAccordionItem="first" #first="ngbAccordionItem" [collapsed]="false">
+                <h2 ngbAccordionHeader>
+                    <button ngbAccordionButton class="fw-bolder">Skills</button>
+                </h2>
+                <div ngbAccordionCollapse>
+                    <div ngbAccordionBody>
+                        <ng-template>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Programming & Scripting: JavaScript (Node.js,), C#, PHP, Java</li>
+                                    <li class="list-group-item">Frameworks & Libraries: Angular, React Native, Laravel, .Net Core, LINQ, MOQ, jQuery, Redux toolkit, Redux Saga</li>
+                                    <li class="list-group-item">Web Technologies: HTML5, CSS3, RESTful APIs, AJAX, JSON
+                                    </li>
+                                    <li class="list-group-item">Cloud & DevOps: AWS (Lambda, S3, API Gateway)</li>
+                                    <li class="list-group-item">Web & APIs: HTML5, CSS3, RESTful APIs, AJAX, JSON</li>
+                                    <li class="list-group-item">Database Management: MySQL, PostgreSQL, PhpMyadmin</li>
+                                    <li class="list-group-item">Tools: Git, Visual Studio Code, Visual Studio, Github Copilot, Cursor IDE</li>
+                                    <li class="list-group-item">Methodologies: Agile, Scrum, Kanban, User Stories</li>
+                                    <li class="list-group-item">Code Practices: SOLID, DRY, Object-Oriented Programming(OOP)</li>
+                                    <li class="list-group-item">Soft Skills: Problem-solving, Analytical Thinking, Communication, Team Collaboration</li>
+                                </ul>
+                            </div>
+                        </ng-template>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

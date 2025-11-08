@@ -1,102 +1,117 @@
 <div class="container d-flex justify-content-center">
-    <div ngbAccordion style="width: 100%;">
-        <div ngbAccordionItem="first" #first="ngbAccordionItem" [collapsed]="false">
-            <h2 ngbAccordionHeader>
-                <button ngbAccordionButton class="fw-bolder">Skills</button>
-            </h2>
-            <div ngbAccordionCollapse>
-                <div ngbAccordionBody>
+  <div ngbAccordion style="width: 100%;">
+    <div ngbAccordionItem [collapsed]="false">
+      <h2 ngbAccordionHeader>
+        <button ngbAccordionButton class="fw-bolder">Experience</button>
+      </h2>
+      <div ngbAccordionCollapse>
+        <div ngbAccordionBody>
+          <ng-template>
+            <div ngbAccordion>
+              <div ngbAccordionItem [collapsed]="false">
+                <h2 ngbAccordionHeader>
+                  <button ngbAccordionButton class="fw-bold">Senior Software Engineer | Cyberland Consultancy Pte Ltd
+                    (Remote) | May 2024 – Present</button>
+                </h2>
+                <div ngbAccordionCollapse>
+                  <div ngbAccordionBody>
                     <ng-template>
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Programming Languages: JavaScript, Node.js, C#</li>
-                                <li class="list-group-item">Amazon Web Services (AWS): Lambda, S3, API Gateway</li>
-                                <li class="list-group-item">Web Technologies: HTML5, CSS3, RESTful APIs, AJAX, JSON</li>
-                                <li class="list-group-item">Database Management: MySQL, PostgeSQL</li>
-                                <li class="list-group-item">Software Tools: Git, Visual Studio Code, Visual Studio</li>
-                                <li class="list-group-item">Frameworks and Libraries: Angular, jQuery, .Net Core, LINQ, MOQ</li>
-                                <li class="list-group-item">Agile Development Methodologies</li>
-                            </ul>
-                        </div>
+                      <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Build and maintain cross-platform projects using React Native and
+                            Laravel, ensuring scalability and performance in a fast-paced, startup-like environment.</li>
+                          <li class="list-group-item">Refactor and optimize legacy apps built with native PHP APIs and
+                            React Native for better
+                            maintainability</li>
+                          <li class="list-group-item">Develop and release Android and iOS projects, ensuring smooth
+                            deployment cycles.</li>
+                          <li class="list-group-item">Translate Figma designs into functional app features in
+                            collaboration with designers and
+                            stakeholders.</li>
+                          <li class="list-group-item">Experienced fullstack development on front-end using Angular, has
+                            experience i using C#, .Net Core backend, and creating MOQ unit tests.</li>
+                          <li class="list-group-item">Spearheaded integration of Redux Toolkit and Redux Saga, improving
+                            state management
+                            and asynchronous data handling.</li>
+                          <li class="list-group-item">Conducted code reviews to maintain best practices, improve code
+                            quality, and mentor
+                            developers</li>
+                          <li class="list-group-item">Collaborated with project management to align software features
+                            with client requirements.</li>
+                        </ul>
+                      </div>
                     </ng-template>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <div ngbAccordionItem>
-            <h2 ngbAccordionHeader>
-              <button ngbAccordionButton class="fw-bolder">Experience</button>
-            </h2>
-            <div ngbAccordionCollapse>
-              <div ngbAccordionBody>
-                <ng-template>
-                    <div ngbAccordion>
-                        <div ngbAccordionItem>
-                          <h2 ngbAccordionHeader>
-                            <button ngbAccordionButton class="fw-bold">Application Development Analyst, Accenture (April 2021 - Present)</button>
-                          </h2>
-                          <div ngbAccordionCollapse>
-                            <div ngbAccordionBody>
-                              <ng-template>
-                                <div class="card-body">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Pioneered 2 applications used by the company for their day to day work for business.</li>
-                                        <li class="list-group-item">Actively participated in scrum ceremonies such as PI planning, sprint planning, daily stand up, sprint reviews, and sprint retrospectives.</li>
-                                        <li class="list-group-item">Created and Maintained a script that is used for data extraction, and adds new features whenever there's a new scope added to the application.</li>
-                                        <li class="list-group-item">Performed Knowledge transfers for the, sharing insights about JavaScript, Angular, Git and NodeJs.</li>
-                                        <li class="list-group-item">Experienced fullstack development on front-end using Angular, has experience i using C#, .Net Core backend, and creating MOQ unit tests.</li>
-                                        <li class="list-group-item">Created serverless functions using AWS Lambda to execute code without provisioning or managing servers.</li>
-                                        <li class="list-group-item">Integrated API Gateway with AWS Lambda to create serverless functions and enable real-time data processing and computation.</li>
-                                        <li class="list-group-item">Recognized as one of the top performers of Java Fullstack Developer Bootcamp on my first year.</li>
-                                    </ul>
-                                </div>
-                              </ng-template>
-                            </div>
-                          </div>
-                        </div>
-                        <div ngbAccordionItem>
-                            <h2 ngbAccordionHeader>
-                              <button ngbAccordionButton class="fw-bold">Junior Web Developer, Setup Phils Inc. (August 2019 - July 2020)</button>
-                            </h2>
-                            <div ngbAccordionCollapse>
-                              <div ngbAccordionBody>
-                                <ng-template>
-                                  <div class="card-body">
-                                      <ul class="list-group list-group-flush">
-                                          <li class="list-group-item">Worked as a full-stack developer working on front-end and back-end feature, and maintain applications the helped in operation of the day-to-day works of clients.</li>
-                                          <li class="list-group-item">Maintained Client applications that utilized PHP Laravel, and Jquery.</li>
-                                          <li class="list-group-item">Analyzed the requirements of the clients.</li>
-                                          <li class="list-group-item">Acted as onsite support for the client’s day to day work.</li>
-                                          <li class="list-group-item">Provided insights on how to use git version control to the team which empowered collaboration.</li>
-                                          <li class="list-group-item">Gained experience from a startup environment.</li>
-                                      </ul>
-                                  </div>
-                                </ng-template>
-                              </div>
-                            </div>
-                        </div>
-                        <div ngbAccordionItem>
-                            <h2 ngbAccordionHeader>
-                              <button ngbAccordionButton class="fw-bold">Intern, Commude Philippines, Inc. (September 2018 – February 2019)</button>
-                            </h2>
-                            <div ngbAccordionCollapse>
-                              <div ngbAccordionBody>
-                                <ng-template>
-                                  <div class="card-body">
-                                      <ul class="list-group list-group-flush">
-                                          <li class="list-group-item">Underwent training in PHP Laravel, JQuery, and git version control.</li>
-                                          <li class="list-group-item">Participated in daily stand-up meetings and presented project progress to the team.</li>
-                                          <li class="list-group-item">Impemented backend functionalities using Laravel, JQuery and integrated them with the front-end.</li>
-                                          <li class="list-group-item">Experienced in building an application.</li>
-                                      </ul>
-                                  </div>
-                                </ng-template>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                </ng-template>
+              </div>
+              <div ngbAccordionItem>
+                <h2 ngbAccordionHeader>
+                  <button ngbAccordionButton class="fw-bold">Application Development Analyst | Accenture | April 2021 -
+                    May 2025</button>
+                </h2>
+                <div ngbAccordionCollapse>
+                  <div ngbAccordionBody>
+                    <ng-template>
+                      <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Planned and executed app updates, bug fixes, and performance enhancements in agile sprints.</li>
+                          <li class="list-group-item">Participated in PI planning, sprint planning, daily stand-ups, reviews, and retrospectives.</li>
+                          <li class="list-group-item">Developed a reusable data extraction script, extending functionality for new business scopes.</li>
+                          <li class="list-group-item">Conducted knowledge transfers on JavaScript, Angular, Git, and Node.js for team onboarding</li>
+                          <li class="list-group-item">Recognized as a top performer in the Java Fullstack Developer Bootcamp during first year.</li>
+                          <li class="list-group-item">Pioneered 2 internal applications that improved business workflows and daily operations.</li>
+                          <li class="list-group-item">Built full-stack features using Angular (front-end) and C#/.NET Core (back-end) with unit tests via MOQ using Microservice architecrure.</li>
+                          <li class="list-group-item">Designed serverless functions with AWS Lambda and API Gateway to enable real-time data processing.</li>
+                          <li class="list-group-item">Leveraged GitHub Copilot for faster, more efficient development.</li>
+                        </ul>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+              <div ngbAccordionItem>
+                <h2 ngbAccordionHeader>
+                  <button ngbAccordionButton class="fw-bold">Junior Web Developer | Setup Phils Inc. | August 2019 - July 2020</button>
+                </h2>
+                <div ngbAccordionCollapse>
+                  <div ngbAccordionBody>
+                    <ng-template>
+                      <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Delivered full-stack features and maintained client apps using Laravel and jQuery.</li>
+                          <li class="list-group-item">Analyzed client requirements and provided technical solutions for day-to-day operations.</li>
+                          <li class="list-group-item">Provided on-site support to clients and resolved application issues in real time.</li>
+                          <li class="list-group-item">Acted as onsite support for the client’s day to day work.</li>
+                          <li class="list-group-item">Provided insights on how to use git version control to the team which empowered collaboration.</li>
+                          <li class="list-group-item">Gained experience from a startup environment.</li>
+                        </ul>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+              <div ngbAccordionItem>
+                <h2 ngbAccordionHeader>
+                  <button ngbAccordionButton class="fw-bold">Intern | Commude Philippines, Inc. | September 2018 – February 2019</button>
+                </h2>
+                <div ngbAccordionCollapse>
+                  <div ngbAccordionBody>
+                    <ng-template>
+                      <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Trained in PHP Laravel, jQuery, and Git version control.</li>
+                          <li class="list-group-item">Implemented backend features and integrated them with the front-end.</li>
+                          <li class="list-group-item">Participated in daily stand-up meetings and presented project progress to the team.</li>
+                        </ul>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </ng-template>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
